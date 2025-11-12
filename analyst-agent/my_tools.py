@@ -47,7 +47,7 @@ class MyVanna(Qdrant_VectorStore, GoogleGeminiChat):
         )
 
 vn_local = MyVanna()
-vn_local.connect_to_bigquery(project_id='flawless-empire-476014-j0')
+vn_local.connect_to_bigquery(project_id='')
 
 logger.info(f"TOOL LOADED: Vanna.ai configured for LOCAL (GemGKey) mode from '{QDRANT_PATH}'.")
 # --- END VANNA CONFIG ---
