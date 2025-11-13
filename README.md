@@ -1,4 +1,4 @@
-# DEMO Insights Agent: Vanna (SQL) + NetworkX (Graph)
+# DEMO ADK Agent: Using Vanna (SQL) + NetworkX (Graph)
 
 This project implements a sophisticated "Singleton Agent" using the **Google Agent Development Kit (ADK)**. It provides a unified interface to answer complex business questions by intelligently routing queries to one of two powerful, specialized backends:
 
@@ -49,7 +49,7 @@ python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
-### 2. Google Cloud Authentication
+### 2. Google Cloud Authentication (And also, GCP Project Name are Hard Coded)
 ```
 gcloud auth application-default login
 ```
